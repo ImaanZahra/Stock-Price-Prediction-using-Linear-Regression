@@ -80,9 +80,9 @@ Historical data for AAPL was downloaded using the `yfinance` library.
 The realistic forecasting model was evaluated on the test set (the most recent ~1 year of data).
 
 *   **Root Mean Squared Error (RMSE):** 4.60
-    *   This means, on average, the model's prediction for the next day's closing price was off by about $2.85.
+    *   This means, on average, the model's prediction for the next day's closing price was off by about $4.60.
 *   **R-squared (R²):** 0.94
-    *   This indicates that the model explains about 98.2% of the variance in the stock price, showing it follows the general trend very well.
+    *   This indicates that the model explains about 94.6% of the variance in the stock price, showing it follows the general trend very well.
 
 **Analysis of Predictions:**
 The visual comparison plot shows that the predicted price line closely follows the actual price line but with a one-day lag. This is typical for a simple linear model, which has learned that **the best predictor for tomorrow's price is today's price**. While simple, this provides a solid baseline for performance.
